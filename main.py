@@ -1,6 +1,6 @@
 from sales_data import SalesData
 
-data_set = input("Enter file path: ")
+data_set = input("Enter file path: ")  #java: StdIn
 
 
 def main_menu(input_sales_data):
@@ -12,18 +12,20 @@ def main_menu(input_sales_data):
 
   if choice == "1":
     total_sales = input_sales_data.total_sales()
-    print("total sales is: " + str(total_sales) + ".\n\n")
+    print("\n\ntotal sales is: " + str(total_sales) + ".\n\n")
   elif choice == "2":
     region_sales = input_sales_data.sales_by_region()
-    print("Sales by region: \n" + str(region_sales) + "\n\n")
+    print("\n\nSales by region: \n\n" + str(region_sales) + "\n\n")
   elif choice == "3":
     sales_data.visualize_sales_trends()
   else:
     print("invalid choice: please try again")
-  choice = input("Enter you choice: ")
+  choice = input("Enter your choice: ")
 
 
 if __name__ == "__main__":
-  sales_data = SalesData(data_set)
+  sales_data = SalesData(
+      data_set
+  )  #object declaration: SalesData sales_data = new SalesData(data_set);
   while True:
     main_menu(sales_data)

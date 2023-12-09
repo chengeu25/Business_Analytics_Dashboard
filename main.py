@@ -83,7 +83,7 @@ def sales_trend_menu(input_sales_data):
 
 
 if __name__ == "__main__":
-  data_set = input("Enter file path: ")
-  sales_data = SalesData(data_set)
+  data_set = input("Enter file path: ") #java: StdIn
+  sales_data = SalesData(data_set) #object declaration: SalesData sales_data = new SalesData(data_set);
   while True:
     main_menu(sales_data)

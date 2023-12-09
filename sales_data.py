@@ -1,3 +1,7 @@
+# @author Cheng Eu Sun
+# Final Project
+# sales_data.py (class file)
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

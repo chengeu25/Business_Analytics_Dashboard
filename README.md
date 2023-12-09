@@ -35,17 +35,19 @@ Under "View Sales Trend Over Time":
 
 Functionality:
 main.py
-Handles user interactions through a command-line interface.
-Utilizes the SalesData class from sales_data.py to provide different analytics options.
+- Handles user interactions through a command-line interface.
+- Utilizes the SalesData class from sales_data.py to provide different analytics options.
+
 sales_data.py
-Defines the SalesData class responsible for loading and analyzing sales data.
+- Defines the SalesData class responsible for loading and analyzing sales data.
+
 Methods include:
-total_sales(): Calculate total sales revenue.
-sales_by_country(): Calculate sales by country.
-sales_by_state(): Calculate sales by state.
-visualize_month_trends(): Visualize monthly sales trends.
-visualize_yearly_trends(): Visualize yearly sales trends.
-visualize_quarterly_trends(): Visualize quarterly sales trends.
+- total_sales(): Calculate total sales revenue.
+- sales_by_country(): Calculate sales by country.
+- sales_by_state(): Calculate sales by state.
+- visualize_month_trends(): Visualize monthly sales trends.
+- visualize_yearly_trends(): Visualize yearly sales trends.
+- visualize_quarterly_trends(): Visualize quarterly sales trends.
 
 Requirements:
 Python 3.x

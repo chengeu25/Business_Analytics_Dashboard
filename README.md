@@ -49,6 +49,11 @@ Methods include:
 - visualize_yearly_trends(): Visualize yearly sales trends.
 - visualize_quarterly_trends(): Visualize quarterly sales trends.
 
+sample data set used:
+sales_data_sample.csv 
+amazon.csv
+source: Kaggle.com
+
 Requirements:
 Python 3.x
 Pandas
